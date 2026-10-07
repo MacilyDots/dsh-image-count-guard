@@ -1,0 +1,46 @@
+{
+  "name": "dsh-image-count-guard",
+  "version": "0.1.0",
+  "description": "Recover a DSH visual-model session when an upstream gateway rejects a request for carrying too many images: offload the oldest image occurrences to text placeholders and retry the step.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "tools",
+    "test",
+    "cordis.patch.yml",
+    "install.ps1",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "image",
+    "offload",
+    "gateway-limit",
+    "recovery"
+  ],
+  "license": "MIT",
+  "author": "MacilyDots",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacilyDots/dsh-image-count-guard.git"
+  },
+  "homepage": "https://github.com/MacilyDots/dsh-image-count-guard#readme",
+  "bugs": {
+    "url": "https://github.com/MacilyDots/dsh-image-count-guard/issues"
+  },
+  "scripts": {
+    "test": "node --test test/guard.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

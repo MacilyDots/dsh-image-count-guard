@@ -1,0 +1,10 @@
+# install.ps1 的 profile 备份（含本机 profile 配置，不入库）
+.backup/
+
+# 依赖
+node_modules/
+
+# 杂项
+*.log
+.DS_Store
+Thumbs.db
