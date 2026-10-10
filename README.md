@@ -1,5 +1,7 @@
 # dsh-image-count-guard
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-en.svg)](https://dsh.market/)
+
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 A fallback plugin for DSH visual-model sessions that hit an image-count limit.

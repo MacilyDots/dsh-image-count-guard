@@ -1,5 +1,7 @@
 # dsh-image-count-guard
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-zh.svg)](https://dsh.market/)
+
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 DSH 视觉模型会话的「图片张数超限」兜底插件。
